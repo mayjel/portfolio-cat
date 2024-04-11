@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(ma.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 300%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    text-align: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: 20px;
+    display: flex;
+}
+
+button {
+    background-color: pink; 
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid pink;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    transition: box-shadow 0.3s ease;
+    align-items: center;
+    
+}
+
+.button:hover {
+    color: red;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 5% 0 0 0;
+    text-decoration: solid;
+
+}
